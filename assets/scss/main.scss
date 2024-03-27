@@ -1,0 +1,20 @@
+//0. 
+@import '../../node_modules/bootstrap/scss/functions';
+@import '../../node_modules/bootstrap/scss/variables';
+@import '../../node_modules/bootstrap/scss/variables-dark';
+//1.- abstracts.
+@import './abstracts/variables', './abstracts/custom_bootstrap';
+//2.- vendors.
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+//3. base
+@import './base/icons';
+@import './base/typhografy';
+@import './base/base';
+@import './base/reset';
+//4. layout
+//5. components
+//6. pages
+@import './pages/home';
+//7. themes
+//8.- utilities
+@import './utilities/utilities';

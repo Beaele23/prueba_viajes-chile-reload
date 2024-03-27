@@ -1,0 +1,91 @@
+.destacados {
+
+    color: $white;
+
+    &__container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+}
+.invalid-feedback{
+    justify-content: start;
+}
+
+.testimonials {
+
+    color: $white;
+
+    &__container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    
+
+    }
+
+    &__container-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .testimonials__text{
+        font-weight: $fslight;
+        font-style: $fsitalic;
+        color: $yellow;
+    }
+
+    .testimonials__image{
+        width: 25%;
+        padding: $sp20 0;
+        border-color: $yellow;
+    }
+    
+    .testimonials__author{
+        padding-bottom: $sp20;
+        color: $yellow;
+    }
+}
+.contact {
+
+    color: $white;
+
+    &__container {
+        display: flex;
+        align-items: start;
+    }
+
+    &__container-form {
+        color: $white;
+    }
+
+    .form-check-label {
+        color: $white;
+        text-decoration: underline;
+    }
+
+    &__container-list i {
+        font-size: $fs24;
+    }
+    &__container-list ul{
+        list-style: none;
+        padding: 0 $sp15;
+        text-align: left;
+        
+
+    }
+    &__container-list ul a {
+        color: white;
+       
+        text-decoration: none;
+        
+        font-size: $fs18;
+    }
+
+    &__container-list li{
+        padding: $sp15 0;
+    }
+
+}
